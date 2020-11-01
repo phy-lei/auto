@@ -33,7 +33,7 @@ function sign_in() {
 // 3. 下滑列表 点赞 并点击去浏览 
 function step_five() {
   let i = 0;
-  while(i < 6) {
+  while(i < 5) {
     look_like(i)
     i++
   }
@@ -48,7 +48,7 @@ function look_like(i) {
   click(840, 2130)
   sleep(1000);
   //最后一次的时候，按分享
-  if(i === 5){
+  if(i === 4){
     click(999, 165)
     sleep(1000);
     back();
