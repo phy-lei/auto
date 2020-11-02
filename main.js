@@ -1,3 +1,11 @@
+try {
+    auto();
+} catch (error) {
+    toast("请手动开启无障碍并授权给Auto.js");
+    sleep(2000);
+    exit();
+}
+
 toast("run server")
 var miyoushe = getPackageName("米游社");
 var float = 1.25;
